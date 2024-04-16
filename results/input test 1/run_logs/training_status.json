@@ -1,0 +1,29 @@
+{
+    "Car Inputs": {
+        "checkpoints": [
+            {
+                "steps": 9024,
+                "file_path": "results\\input test 1\\Car Inputs\\Car Inputs-9024.onnx",
+                "reward": null,
+                "creation_time": 1712941179.4004831,
+                "auxillary_file_paths": [
+                    "results\\input test 1\\Car Inputs\\Car Inputs-9024.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9024,
+            "file_path": "results\\input test 1\\Car Inputs.onnx",
+            "reward": null,
+            "creation_time": 1712941179.4004831,
+            "auxillary_file_paths": [
+                "results\\input test 1\\Car Inputs\\Car Inputs-9024.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}
