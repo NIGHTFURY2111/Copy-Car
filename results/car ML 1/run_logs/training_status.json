@@ -1,0 +1,38 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 7432,
+                "file_path": "results\\car ML 1\\My Behavior\\My Behavior-7432.onnx",
+                "reward": -7.400000274181366,
+                "creation_time": 1713521611.8288686,
+                "auxillary_file_paths": [
+                    "results\\car ML 1\\My Behavior\\My Behavior-7432.pt"
+                ]
+            },
+            {
+                "steps": 111229,
+                "file_path": "results\\car ML 1\\My Behavior\\My Behavior-111229.onnx",
+                "reward": null,
+                "creation_time": 1713521976.8868794,
+                "auxillary_file_paths": [
+                    "results\\car ML 1\\My Behavior\\My Behavior-111229.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 111229,
+            "file_path": "results\\car ML 1\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1713521976.8868794,
+            "auxillary_file_paths": [
+                "results\\car ML 1\\My Behavior\\My Behavior-111229.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

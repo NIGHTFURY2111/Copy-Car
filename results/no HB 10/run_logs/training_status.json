@@ -1,0 +1,56 @@
+{
+    "Car Behaviour": {
+        "checkpoints": [
+            {
+                "steps": 499937,
+                "file_path": "results\\no HB 10\\Car Behaviour\\Car Behaviour-499937.onnx",
+                "reward": -243.99940371513367,
+                "creation_time": 1713980017.122528,
+                "auxillary_file_paths": [
+                    "results\\no HB 10\\Car Behaviour\\Car Behaviour-499937.pt"
+                ]
+            },
+            {
+                "steps": 999927,
+                "file_path": "results\\no HB 10\\Car Behaviour\\Car Behaviour-999927.onnx",
+                "reward": -239.99941110610962,
+                "creation_time": 1713982079.788536,
+                "auxillary_file_paths": [
+                    "results\\no HB 10\\Car Behaviour\\Car Behaviour-999927.pt"
+                ]
+            },
+            {
+                "steps": 1499909,
+                "file_path": "results\\no HB 10\\Car Behaviour\\Car Behaviour-1499909.onnx",
+                "reward": null,
+                "creation_time": 1713984066.2229378,
+                "auxillary_file_paths": [
+                    "results\\no HB 10\\Car Behaviour\\Car Behaviour-1499909.pt"
+                ]
+            },
+            {
+                "steps": 1523290,
+                "file_path": "results\\no HB 10\\Car Behaviour\\Car Behaviour-1523290.onnx",
+                "reward": null,
+                "creation_time": 1713984221.9132733,
+                "auxillary_file_paths": [
+                    "results\\no HB 10\\Car Behaviour\\Car Behaviour-1523290.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1523290,
+            "file_path": "results\\no HB 10\\Car Behaviour.onnx",
+            "reward": null,
+            "creation_time": 1713984221.9132733,
+            "auxillary_file_paths": [
+                "results\\no HB 10\\Car Behaviour\\Car Behaviour-1523290.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1714036148",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\unity\\gammmm\\Copy-Car\\venv\\Scripts\\mlagents-learn config/PyramidsInspired.yaml --run-id=no HB 14 --time-scale 9",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1714036170"
+    },
+    "total": 22.0845648,
+    "count": 1,
+    "self": 0.01251010000000008,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09997359999999977,
+            "count": 1,
+            "self": 0.09997359999999977
+        },
+        "TrainerController.start_learning": {
+            "total": 21.9720811,
+            "count": 1,
+            "self": 0.00037820000000365894,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 21.9716925,
+                    "count": 1,
+                    "self": 21.9716925
+                },
+                "trainer_threads": {
+                    "total": 7.999999986907369e-07,
+                    "count": 1,
+                    "self": 7.999999986907369e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 9.599999998499698e-06,
+                    "count": 1,
+                    "self": 9.599999998499698e-06
+                }
+            }
+        }
+    }
+}

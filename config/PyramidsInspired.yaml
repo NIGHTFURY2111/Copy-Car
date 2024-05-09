@@ -1,0 +1,34 @@
+behaviors:
+  Car Behaviour:
+    trainer_type: ppo
+    hyperparameters:
+      batch_size: 128
+      buffer_size: 2048
+      learning_rate: 0.0003
+      beta: 0.01
+      epsilon: 0.2
+      lambd: 0.95
+      num_epoch: 3
+    network_settings:
+      normalize: false
+      hidden_units: 512
+      num_layers: 2
+    reward_signals:
+      curiosity:
+        gamma: 0.99
+        strength: 0.01
+        network_settings:
+          hidden_units: 256
+      extrinsic:
+        gamma: 0.99
+        strength: 0.9
+      gail:
+        gamma: 0.99
+        strength: 1.0
+        demo_path: Recording/CarRecording_19.demo
+    max_steps: 1.0e7
+    time_horizon: 128
+    behavioral_cloning:
+      demo_path: Recording/CarRecording_19.demo
+      strength: 1.0
+      steps: 150000

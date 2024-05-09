@@ -1,0 +1,29 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 356874,
+                "file_path": "results\\car ML 2\\My Behavior\\My Behavior-356874.onnx",
+                "reward": null,
+                "creation_time": 1713544211.2560587,
+                "auxillary_file_paths": [
+                    "results\\car ML 2\\My Behavior\\My Behavior-356874.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 356874,
+            "file_path": "results\\car ML 2\\My Behavior.onnx",
+            "reward": null,
+            "creation_time": 1713544211.2560587,
+            "auxillary_file_paths": [
+                "results\\car ML 2\\My Behavior\\My Behavior-356874.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "Car Behaviour": {
+        "checkpoints": [
+            {
+                "steps": 499944,
+                "file_path": "results\\car ML 34\\Car Behaviour\\Car Behaviour-499944.onnx",
+                "reward": -6.4571433407919745,
+                "creation_time": 1713621380.4652832,
+                "auxillary_file_paths": [
+                    "results\\car ML 34\\Car Behaviour\\Car Behaviour-499944.pt"
+                ]
+            },
+            {
+                "steps": 500136,
+                "file_path": "results\\car ML 34\\Car Behaviour\\Car Behaviour-500136.onnx",
+                "reward": -6.4571433407919745,
+                "creation_time": 1713621380.549372,
+                "auxillary_file_paths": [
+                    "results\\car ML 34\\Car Behaviour\\Car Behaviour-500136.pt"
+                ]
+            },
+            {
+                "steps": 857143,
+                "file_path": "results\\car ML 34\\Car Behaviour\\Car Behaviour-857143.onnx",
+                "reward": null,
+                "creation_time": 1713621950.239788,
+                "auxillary_file_paths": [
+                    "results\\car ML 34\\Car Behaviour\\Car Behaviour-857143.pt"
+                ]
+            },
+            {
+                "steps": 999959,
+                "file_path": "results\\car ML 34\\Car Behaviour\\Car Behaviour-999959.onnx",
+                "reward": -26.471430710383824,
+                "creation_time": 1713622150.806319,
+                "auxillary_file_paths": [
+                    "results\\car ML 34\\Car Behaviour\\Car Behaviour-999959.pt"
+                ]
+            },
+            {
+                "steps": 1000279,
+                "file_path": "results\\car ML 34\\Car Behaviour\\Car Behaviour-1000279.onnx",
+                "reward": -26.471430710383824,
+                "creation_time": 1713622150.9047253,
+                "auxillary_file_paths": [
+                    "results\\car ML 34\\Car Behaviour\\Car Behaviour-1000279.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000279,
+            "file_path": "results\\car ML 34\\Car Behaviour.onnx",
+            "reward": -26.471430710383824,
+            "creation_time": 1713622150.9047253,
+            "auxillary_file_paths": [
+                "results\\car ML 34\\Car Behaviour\\Car Behaviour-1000279.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

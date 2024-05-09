@@ -1,0 +1,65 @@
+{
+    "Car Behaviour": {
+        "checkpoints": [
+            {
+                "steps": 499957,
+                "file_path": "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-499957.onnx",
+                "reward": -127.30410351852576,
+                "creation_time": 1713775915.2241745,
+                "auxillary_file_paths": [
+                    "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-499957.pt"
+                ]
+            },
+            {
+                "steps": 999996,
+                "file_path": "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-999996.onnx",
+                "reward": -104.81181590259075,
+                "creation_time": 1713776587.8370223,
+                "auxillary_file_paths": [
+                    "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-999996.pt"
+                ]
+            },
+            {
+                "steps": 1499954,
+                "file_path": "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-1499954.onnx",
+                "reward": -36.45927771263652,
+                "creation_time": 1713777280.5904844,
+                "auxillary_file_paths": [
+                    "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-1499954.pt"
+                ]
+            },
+            {
+                "steps": 1500018,
+                "file_path": "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-1500018.onnx",
+                "reward": -36.45927771263652,
+                "creation_time": 1713777280.6400673,
+                "auxillary_file_paths": [
+                    "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-1500018.pt"
+                ]
+            },
+            {
+                "steps": 1500018,
+                "file_path": "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-1500018.onnx",
+                "reward": null,
+                "creation_time": 1713777481.9392204,
+                "auxillary_file_paths": [
+                    "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-1500018.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1500018,
+            "file_path": "results\\no HB 3--train\\Car Behaviour.onnx",
+            "reward": null,
+            "creation_time": 1713777481.9392204,
+            "auxillary_file_paths": [
+                "results\\no HB 3--train\\Car Behaviour\\Car Behaviour-1500018.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

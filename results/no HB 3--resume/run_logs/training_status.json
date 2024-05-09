@@ -1,0 +1,29 @@
+{
+    "Car Behaviour": {
+        "checkpoints": [
+            {
+                "steps": 448,
+                "file_path": "results\\no HB 3--resume\\Car Behaviour\\Car Behaviour-448.onnx",
+                "reward": null,
+                "creation_time": 1713777401.516663,
+                "auxillary_file_paths": [
+                    "results\\no HB 3--resume\\Car Behaviour\\Car Behaviour-448.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 448,
+            "file_path": "results\\no HB 3--resume\\Car Behaviour.onnx",
+            "reward": null,
+            "creation_time": 1713777401.516663,
+            "auxillary_file_paths": [
+                "results\\no HB 3--resume\\Car Behaviour\\Car Behaviour-448.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

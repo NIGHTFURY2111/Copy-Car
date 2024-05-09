@@ -1,0 +1,65 @@
+{
+    "Car Behaviour": {
+        "checkpoints": [
+            {
+                "steps": 42220,
+                "file_path": "results\\no HB 16\\Car Behaviour\\Car Behaviour-42220.onnx",
+                "reward": -62.25204944610596,
+                "creation_time": 1714459790.8788536,
+                "auxillary_file_paths": [
+                    "results\\no HB 16\\Car Behaviour\\Car Behaviour-42220.pt"
+                ]
+            },
+            {
+                "steps": 63166,
+                "file_path": "results\\no HB 16\\Car Behaviour\\Car Behaviour-63166.onnx",
+                "reward": 0.0,
+                "creation_time": 1714459947.249771,
+                "auxillary_file_paths": [
+                    "results\\no HB 16\\Car Behaviour\\Car Behaviour-63166.pt"
+                ]
+            },
+            {
+                "steps": 171763,
+                "file_path": "results\\no HB 16\\Car Behaviour\\Car Behaviour-171763.onnx",
+                "reward": 0.0,
+                "creation_time": 1714460952.5387468,
+                "auxillary_file_paths": [
+                    "results\\no HB 16\\Car Behaviour\\Car Behaviour-171763.pt"
+                ]
+            },
+            {
+                "steps": 216852,
+                "file_path": "results\\no HB 16\\Car Behaviour\\Car Behaviour-216852.onnx",
+                "reward": -214.4056122303009,
+                "creation_time": 1714463647.7624433,
+                "auxillary_file_paths": [
+                    "results\\no HB 16\\Car Behaviour\\Car Behaviour-216852.pt"
+                ]
+            },
+            {
+                "steps": 264644,
+                "file_path": "results\\no HB 16\\Car Behaviour\\Car Behaviour-264644.onnx",
+                "reward": 11.333333333333334,
+                "creation_time": 1714463905.9817846,
+                "auxillary_file_paths": [
+                    "results\\no HB 16\\Car Behaviour\\Car Behaviour-264644.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 264644,
+            "file_path": "results\\no HB 16\\Car Behaviour.onnx",
+            "reward": 11.333333333333334,
+            "creation_time": 1714463905.9817846,
+            "auxillary_file_paths": [
+                "results\\no HB 16\\Car Behaviour\\Car Behaviour-264644.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}

@@ -13,14 +13,14 @@ env_settings:
 engine_settings:
   width: 84
   height: 84
-  quality_level: 5
+  quality_level: 1
   time_scale: 1.0
   target_frame_rate: -1
   capture_frame_rate: 60
   no_graphics: false
 environment_parameters: null
 checkpoint_settings:
-  run_id: ppo
+  run_id: bc
   initialize_from: null
   load_model: false
   resume: false

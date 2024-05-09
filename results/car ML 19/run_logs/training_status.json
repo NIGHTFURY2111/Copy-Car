@@ -1,0 +1,29 @@
+{
+    "Car Behaviour": {
+        "checkpoints": [
+            {
+                "steps": 15680,
+                "file_path": "results\\car ML 19\\Car Behaviour\\Car Behaviour-15680.onnx",
+                "reward": null,
+                "creation_time": 1713550856.0335994,
+                "auxillary_file_paths": [
+                    "results\\car ML 19\\Car Behaviour\\Car Behaviour-15680.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15680,
+            "file_path": "results\\car ML 19\\Car Behaviour.onnx",
+            "reward": null,
+            "creation_time": 1713550856.0335994,
+            "auxillary_file_paths": [
+                "results\\car ML 19\\Car Behaviour\\Car Behaviour-15680.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.0.1+cpu"
+    }
+}
