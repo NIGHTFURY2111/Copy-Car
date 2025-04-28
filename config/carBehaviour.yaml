@@ -21,3 +21,7 @@ behaviors:
     max_steps: 1.0e7
     time_horizon: 128
     summary_freq: 10000
+    behavioral_cloning:
+      demo_path: Recording/CarRecording_19.demo
+      strength: 1.0
+      steps: 150000

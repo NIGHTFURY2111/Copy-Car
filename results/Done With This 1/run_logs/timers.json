@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1738262611",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\unity\\gammmm\\Copy-Car\\venv\\Scripts\\mlagents-learn config/ChatGPT.yaml --run-id=Done With This 1 --time-scale 1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.0.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1738262626"
+    },
+    "total": 14.3732106,
+    "count": 1,
+    "self": 0.01412690000000083,
+    "children": {
+        "run_training.setup": {
+            "total": 0.28271710000000017,
+            "count": 1,
+            "self": 0.28271710000000017
+        },
+        "TrainerController.start_learning": {
+            "total": 14.0763666,
+            "count": 1,
+            "self": 0.00019909999999967454,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 14.076141199999999,
+                    "count": 1,
+                    "self": 14.076141199999999
+                },
+                "TrainerController._save_models": {
+                    "total": 2.6300000001810986e-05,
+                    "count": 1,
+                    "self": 2.6300000001810986e-05
+                }
+            }
+        }
+    }
+}

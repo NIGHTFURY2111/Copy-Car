@@ -51,7 +51,7 @@ public class CarAgent : Agent
     {
         pcc.inputs[0] = actions.DiscreteActions.Array[0];
         pcc.inputs[1] = actions.DiscreteActions.Array[1];
-        pcc.inputs[2] = 0;
+        pcc.inputs[2] = actions.DiscreteActions.Array[2];
 
 
         //Debug.Log(pcc.inputs[0] + " " + pcc.inputs[1] + " " + pcc.inputs[2]);
